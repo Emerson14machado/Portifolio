@@ -64,9 +64,11 @@ nav .dropdown-menu{
 }
 
 .gc2{
-    font-size: 2rem;
-    display: flex;
+    font-size: 2rem
     padding: 20px;
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
 }
 
 .xx {
